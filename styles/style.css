@@ -1,5 +1,5 @@
 /* Header Style  */
-.opacity {
+.banner-img {
     filter: brightness(40%);
 }
 .carousel-text  {
@@ -7,4 +7,26 @@
     top: 50%;
     left: 50%;
     margin-left: -40%;
+}
+
+/* Header Banner Responive for small device  */
+@media only screen and (max-width:576px) {
+   .banner-img {
+    width: 400px;
+    height: 330px;
+   } 
+   .carousel-text {
+    width: 274px;
+    height: 184px;
+    margin-top: -30px;
+   }
+   .carousel-text h5 {
+    font-size: 18px;
+   }
+   .carousel-text p {
+    font-size: 12px;
+   }
+   .carousel-text button {
+    font-size: 16px;
+   }
 }
