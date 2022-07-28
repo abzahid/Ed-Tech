@@ -1,0 +1,10 @@
+/* Header Style  */
+.opacity {
+    filter: brightness(40%);
+}
+.carousel-text  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+}
